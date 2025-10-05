@@ -1,5 +1,6 @@
-vercel-latency-api/
+tds2/
 ├── api/
-│   └── index.py
-├── requirements.txt
-└── vercel.json
+│   └── index.py         ← your FastAPI code goes here
+├── requirements.txt     ← list FastAPI and numpy
+└── vercel.json          ← tells Vercel where to look
+
